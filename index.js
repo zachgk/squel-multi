@@ -431,10 +431,10 @@ exports.builder = function() {
     self.dbModel = dbModel;
     self.dbName = dbName;
     var query;
-    if(self.mode == 'select') query = squel.useFlavour('mssql').select();
-    else if(self.mode == 'remove') query = squel.useFlavour('mssql').remove();
-    else if(self.mode == 'insert') query = squel.useFlavour('mssql').insert();
-    else if(self.mode == 'update') query = squel.useFlavour('mssql').update();
+    if(self.mode == 'select') query = squel.useFlavour(flavour).select();
+    else if(self.mode == 'remove') query = squel.useFlavour(flavour).remove();
+    else if(self.mode == 'insert') query = squel.useFlavour(flavour).insert();
+    else if(self.mode == 'update') query = squel.useFlavour(flavour).update();
 
     self.squelQuery = query;
 
