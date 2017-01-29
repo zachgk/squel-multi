@@ -1,0 +1,19 @@
+{
+  "name": "squel-multi",
+  "version": "1.0.0",
+  "description": "A wrapper over squel for handling multiple similar database designs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachgk/squel-multi.git"
+  },
+  "author": "Zach Kimberg <zachary@kimberg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachgk/squel-multi/issues"
+  },
+  "homepage": "https://github.com/zachgk/squel-multi#readme"
+}
